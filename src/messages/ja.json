@@ -1,0 +1,97 @@
+{
+  "common": {
+    "search": "検索",
+    "filter": "絞り込み",
+    "reset": "リセット",
+    "apply": "適用",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "delete": "削除",
+    "edit": "編集",
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "noResults": "結果が見つかりませんでした"
+  },
+  "nav": {
+    "home": "ホーム",
+    "properties": "物件",
+    "search": "検索",
+    "favorites": "お気に入り",
+    "profile": "プロフィール",
+    "signIn": "ログイン",
+    "signOut": "ログアウト"
+  },
+  "home": {
+    "title": "日本で理想の住まいを見つけよう",
+    "subtitle": "居住者のレビュー付き不動産情報を検索",
+    "searchPlaceholder": "エリア、駅、地名で検索...",
+    "featured": "おすすめ物件",
+    "recent": "新着物件",
+    "popular": "人気エリア"
+  },
+  "property": {
+    "price": "価格",
+    "bedrooms": "寝室",
+    "bathrooms": "浴室",
+    "area": "面積",
+    "yearBuilt": "築年数",
+    "type": "物件タイプ",
+    "address": "住所",
+    "nearestStation": "最寄り駅",
+    "walkMinutes": "分",
+    "amenities": "設備",
+    "viewDetails": "詳細を見る",
+    "addToFavorites": "お気に入りに追加",
+    "removeFromFavorites": "お気に入りから削除",
+    "types": {
+      "apartment": "アパート",
+      "house": "一戸建て",
+      "condo": "マンション",
+      "studio": "ワンルーム"
+    }
+  },
+  "search": {
+    "title": "物件検索",
+    "filters": "絞り込み条件",
+    "priceRange": "価格帯",
+    "propertyType": "物件タイプ",
+    "bedrooms": "寝室数",
+    "area": "面積",
+    "sortBy": "並び替え",
+    "sortOptions": {
+      "priceAsc": "価格: 安い順",
+      "priceDesc": "価格: 高い順",
+      "newest": "新着順",
+      "rating": "評価順"
+    }
+  },
+  "review": {
+    "title": "レビュー",
+    "writeReview": "レビューを書く",
+    "rating": "評価",
+    "overall": "総合評価",
+    "location": "立地",
+    "facilities": "設備",
+    "management": "管理",
+    "value": "コストパフォーマンス",
+    "yourReview": "レビューを記入",
+    "addPhotos": "写真を追加",
+    "submit": "レビューを投稿",
+    "helpful": "参考になった",
+    "verified": "居住者確認済み",
+    "categories": {
+      "location": "立地が良い",
+      "facilities": "設備が充実",
+      "management": "管理が行き届いている",
+      "value": "コスパが良い"
+    }
+  },
+  "profile": {
+    "title": "マイプロフィール",
+    "myReviews": "投稿したレビュー",
+    "myFavorites": "お気に入り",
+    "settings": "設定",
+    "language": "言語",
+    "notifications": "通知"
+  }
+}

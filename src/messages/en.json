@@ -1,0 +1,97 @@
+{
+  "common": {
+    "search": "Search",
+    "filter": "Filter",
+    "reset": "Reset",
+    "apply": "Apply",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "noResults": "No results found"
+  },
+  "nav": {
+    "home": "Home",
+    "properties": "Properties",
+    "search": "Search",
+    "favorites": "Favorites",
+    "profile": "Profile",
+    "signIn": "Sign In",
+    "signOut": "Sign Out"
+  },
+  "home": {
+    "title": "Find Your Perfect Home in Japan",
+    "subtitle": "Browse real estate listings with reviews from residents",
+    "searchPlaceholder": "Search by location, station, or area...",
+    "featured": "Featured Properties",
+    "recent": "Recently Added",
+    "popular": "Popular Areas"
+  },
+  "property": {
+    "price": "Price",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "area": "Area",
+    "yearBuilt": "Year Built",
+    "type": "Property Type",
+    "address": "Address",
+    "nearestStation": "Nearest Station",
+    "walkMinutes": "min walk",
+    "amenities": "Amenities",
+    "viewDetails": "View Details",
+    "addToFavorites": "Add to Favorites",
+    "removeFromFavorites": "Remove from Favorites",
+    "types": {
+      "apartment": "Apartment",
+      "house": "House",
+      "condo": "Condo",
+      "studio": "Studio"
+    }
+  },
+  "search": {
+    "title": "Search Properties",
+    "filters": "Filters",
+    "priceRange": "Price Range",
+    "propertyType": "Property Type",
+    "bedrooms": "Bedrooms",
+    "area": "Area",
+    "sortBy": "Sort By",
+    "sortOptions": {
+      "priceAsc": "Price: Low to High",
+      "priceDesc": "Price: High to Low",
+      "newest": "Newest",
+      "rating": "Highest Rating"
+    }
+  },
+  "review": {
+    "title": "Reviews",
+    "writeReview": "Write a Review",
+    "rating": "Rating",
+    "overall": "Overall",
+    "location": "Location",
+    "facilities": "Facilities",
+    "management": "Management",
+    "value": "Value for Money",
+    "yourReview": "Your Review",
+    "addPhotos": "Add Photos",
+    "submit": "Submit Review",
+    "helpful": "Helpful",
+    "verified": "Verified Resident",
+    "categories": {
+      "location": "Great location",
+      "facilities": "Modern facilities",
+      "management": "Well managed",
+      "value": "Good value"
+    }
+  },
+  "profile": {
+    "title": "My Profile",
+    "myReviews": "My Reviews",
+    "myFavorites": "My Favorites",
+    "settings": "Settings",
+    "language": "Language",
+    "notifications": "Notifications"
+  }
+}
