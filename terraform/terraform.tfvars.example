@@ -1,0 +1,17 @@
+# AWS Configuration
+aws_region  = "ap-northeast-1"
+environment = "production"
+project_name = "foreign-housing"
+
+# Domain Configuration
+domain_name = "foreign-housing.com"
+
+# Database Credentials (CHANGE THESE!)
+db_username = "admin"
+db_password = "ChangeMe_SecurePassword123!"
+
+# Network Configuration
+vpc_cidr = "10.0.0.0/16"
+
+# Access Control
+allowed_cidr_blocks = ["0.0.0.0/0"]  # Restrict in production!

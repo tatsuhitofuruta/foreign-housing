@@ -22,9 +22,19 @@ A modern real estate review platform designed for foreigners living in or moving
 - **next-intl** - Internationalization
 - **Lucide React** - Icon library
 
-### Backend (Planned)
-- **Supabase** - PostgreSQL database and authentication
+### Backend
+- **Prisma** - Type-safe ORM for PostgreSQL
+- **NextAuth.js** - Authentication
 - **Next.js API Routes** - Server-side API
+- **PostgreSQL** - Primary database (AWS RDS)
+
+### Infrastructure
+- **Terraform** - Infrastructure as Code
+- **AWS RDS** - PostgreSQL database with automated backups
+- **AWS S3** - Image storage
+- **AWS CloudFront** - CDN for image delivery
+- **AWS Cognito** - Optional user authentication
+- **AWS SES** - Transactional emails
 
 ## 📁 Project Structure
 
@@ -77,12 +87,27 @@ cd foreign-housing
 npm install
 ```
 
-3. Run the development server:
+3. Set up environment variables:
+```bash
+cp .env.example .env
+# Edit .env with your configuration
+```
+
+4. Set up the database:
+```bash
+# Start PostgreSQL (via Docker or local installation)
+# Then run migrations
+npm run db:generate
+npm run db:push
+npm run db:seed
+```
+
+5. Run the development server:
 ```bash
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+6. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ### Available Scripts
 
@@ -91,6 +116,12 @@ npm run dev
 - `npm start` - Start production server
 - `npm run lint` - Run ESLint
 - `npm run type-check` - Run TypeScript type checking
+- `npm run db:generate` - Generate Prisma client
+- `npm run db:push` - Push schema changes to database
+- `npm run db:migrate` - Run database migrations
+- `npm run db:migrate:dev` - Create and run migrations in development
+- `npm run db:studio` - Open Prisma Studio (database GUI)
+- `npm run db:seed` - Seed database with sample data
 
 ## 🌐 Internationalization
 
